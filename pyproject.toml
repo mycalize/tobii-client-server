@@ -1,7 +1,7 @@
 [project]
-name = "tobiiclientserver"
+name = "tobii-client-server"
 version = "0.1.0"
-description = "Client/server set-up for Tobii Pro Nano gaze data."
+description = "Client-server set-up for Tobii Pro Nano gaze data."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy>=2.2.6", "pygame>=2.6.1"]
@@ -9,5 +9,10 @@ dependencies = ["numpy>=2.2.6", "pygame>=2.6.1"]
 [project.optional-dependencies]
 server = ["tobii-research>=2.1.0"]
 
-[dependency-groups]
-dev = []
+[project.scripts]
+server = "tobii_client_server.scripts.run_server:main"
+client = "tobii_client_server.scripts.run_client:main"
+
+[build-system]
+requires = ["uv_build>=0.11.28,<0.12.0"]
+build-backend = "uv_build"

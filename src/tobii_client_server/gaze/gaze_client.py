@@ -3,7 +3,7 @@ import socket
 import struct
 import threading
 
-from src.gaze.gaze_server import DATA_FORMAT
+from tobii_client_server.gaze.gaze_server import DATA_FORMAT
 
 
 class GazeClient:

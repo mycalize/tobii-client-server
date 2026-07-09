@@ -1,8 +1,8 @@
 import socket
 import time
 
-from src.gaze.gaze_server import GazeServer
-from src.tobii.tobii_eye_tracker import TobiiEyeTracker
+from tobii_client_server.gaze.gaze_server import GazeServer
+from tobii_client_server.tobii.tobii_eye_tracker import TobiiEyeTracker
 
 SCREEN_RES = (1920, 1080)
 

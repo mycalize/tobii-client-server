@@ -1,6 +1,6 @@
 import pygame
 
-from src.gaze.gaze_point import GazePoint
+from tobii_client_server.gaze.gaze_point import GazePoint
 
 
 class GazeVisualizer:

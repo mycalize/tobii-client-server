@@ -1,5 +1,5 @@
-from src.gaze.gaze_client import GazeClient
-from src.gaze.gaze_visualizer import GazeVisualizer
+from tobii_client_server.gaze.gaze_client import GazeClient
+from tobii_client_server.gaze.gaze_visualizer import GazeVisualizer
 
 SCREEN_RES = (1920, 1080)
 
