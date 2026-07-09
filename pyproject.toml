@@ -1,7 +1,7 @@
 [project]
-name = "gazetrackerscene"
+name = "tobiiclientserver"
 version = "0.1.0"
-description = "Near-eye IR-illuminated gaze tracker."
+description = "Client/server set-up for Tobii Pro Nano gaze data."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy>=2.2.6", "pygame>=2.6.1"]
