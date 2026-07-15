@@ -20,7 +20,7 @@ The server has only been tested with the Tobii Pro Nano connected to the lab's D
     uv run server
     ```
 
-## Client Installation
+## Client Set-up
 The client has only been tested on Ubuntu 24.04 and macOS 15.2. The instructions assume that you are adding the gaze client to a [uv](https://docs.astral.sh/uv/) project.
 
 1. Add library as dependency to your project.
